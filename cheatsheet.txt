@@ -1,0 +1,6 @@
+60.times do
+  shuffle_reels
+  print @reels.join("\t") + "\r"
+  $stdout.flush
+  sleep(0.03)
+end
